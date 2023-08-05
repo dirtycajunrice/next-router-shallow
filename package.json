@@ -1,0 +1,26 @@
+{
+  "name": "next-router-shallow",
+  "version": "1.0.0",
+  "description": "Helper plugin to shallowly update the router object in Next.js",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nicholas St. Germain",
+    "email": "nick@cajun.pro",
+    "url": "https://cajun.pro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirtycajunrice/next-router-shallow.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dirtycajunrice/next-router-shallow",
+  "bugs": "https://github.com/dirtycajunrice/next-router-shallow/issues",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

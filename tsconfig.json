@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "isolatedModules": true,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/index.ts",
+    "src/interfaces.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
